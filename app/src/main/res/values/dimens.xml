@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">18sp</dimen>
+    <dimen name="normalTextSize">14sp</dimen>
+    <dimen name="smallTextSize">12sp</dimen>
+    <dimen name="horizontalMargin">16dp</dimen>
+    <dimen name="smallMargin">10dp</dimen>
+    <dimen name="verticalMargin">16dp</dimen>
+    <dimen name="largeMargin">32dp</dimen>
+</resources>

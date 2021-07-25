@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rectangle"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/iv_blink"
+        android:layout_width="56dp"
+        android:layout_height="64dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/splash_blink" />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/iv_blink"
+        android:text="Please wait..." />
+
+</RelativeLayout>

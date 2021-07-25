@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rectangle"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/horizontalMargin"
+                android:text="Invitation Successful"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark" />
+
+            <pl.droidsonroids.gif.GifTextView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_above="@id/tv_description"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/horizontalMargin"
+                android:background="@drawable/iv_balloon" />
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/horizontalMargin"
+                android:layout_marginEnd="@dimen/horizontalMargin"
+                android:layout_marginBottom="@dimen/horizontalMargin"
+                android:gravity="center"
+                android:text="Cheers!! Invitation sent Successfully."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/Button_Style"
+            android:layout_below="@id/l1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="@dimen/horizontalMargin"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="Next Page"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</layout>

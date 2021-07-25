@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestBlinq</string>
+    <string name="broccoli_and_co">Broccoli and Co</string>
+    <string name="request_invite">Request Invitation</string>
+    <string name="name">Name</string>
+    <string name="empty_error_msg">This field can\'t be empty</string>
+    <string name="enter_valid_email">Invalid email address</string>
+    <string name="developed_by_blink_technologies">Developed by Blink Technologies.</string>
+    <string name="please_check">Please check your internet connection and try again!</string>
+    <string name="confirm_email_address">Confirm email address</string>
+    <string name="email_dont_match">Email address does not match</string>
+    <string name="enter_email_address">Enter email address</string>
+</resources>
